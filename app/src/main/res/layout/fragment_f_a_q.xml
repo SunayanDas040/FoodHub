@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragment.FAQFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#eeeeee">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/txtQ1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/q_1"
+                android:textSize="18sp"
+                android:layout_margin="10dp"
+                android:textColor="@color/deep_orange"/>
+
+            <TextView
+                android:id="@+id/txtA1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/a_1"
+                android:textSize="18sp"
+                android:layout_margin="10dp"
+                android:textColor="#000"/>
+
+            <TextView
+                android:id="@+id/txtQ2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/q_2"
+                android:textSize="18sp"
+                android:textColor="@color/deep_orange"
+                android:layout_margin="10dp"/>
+
+            <TextView
+                android:id="@+id/txtA2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/a_2"
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:layout_margin="10dp"/>
+
+            <TextView
+                android:id="@+id/txtQ3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/q_3"
+                android:textColor="@color/deep_orange"
+                android:textSize="18sp"
+                android:layout_margin="10dp"/>
+
+            <TextView
+                android:id="@+id/txtA3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/a_3"
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:layout_margin="10dp"/>
+
+            <TextView
+                android:id="@+id/txtQ4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/q_4"
+                android:textSize="18sp"
+                android:textColor="@color/deep_orange"
+                android:layout_margin="10dp"/>
+
+            <TextView
+                android:id="@+id/txtA4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/a_4"
+                android:textColor="#000"
+                android:textSize="18sp"
+                android:layout_margin="10dp"/>
+
+            <TextView
+                android:id="@+id/txtQ5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/q_5"
+                android:textSize="18sp"
+                android:textColor="@color/deep_orange"
+                android:layout_margin="10dp"/>
+
+            <TextView
+                android:id="@+id/txtA5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/a_5"
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:layout_margin="10dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

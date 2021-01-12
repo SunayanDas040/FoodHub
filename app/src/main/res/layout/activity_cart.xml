@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#eeeeee"
+    tools:context=".activity.CartActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/deep_orange"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"/>
+
+    <LinearLayout
+        android:id="@+id/llContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtOrderingFrom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ordering From :"
+            android:textColor="#000"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:id="@+id/txtRestaurantName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:textSize="18sp"
+            android:textColor="#000"
+            android:text="Restaurant"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/llContent"
+        android:layout_marginTop="6dp"/>
+
+    <Button
+        android:id="@+id/btnPlaceOrder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/place_order"
+        android:textSize="18sp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:padding="8dp"
+        android:backgroundTint="@color/deep_orange"/>
+
+</RelativeLayout>
